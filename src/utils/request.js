@@ -1,4 +1,5 @@
 const URLs = "http://localhost:7979/images/";
+// const URLs = "https://cayambe-tourism.onrender.com/images/";
 
 export const getData = async () => {
   try {

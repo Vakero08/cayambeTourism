@@ -7,6 +7,7 @@ const hotel = <FontAwesomeIcon icon={faLocationPin} className="mx-1" />;
 const Images = ({ dato, setCurrentItem }) => {
   let nameParse = dato.name.replaceAll(" ", "_").toLowerCase();
   let ur = "http://localhost:7979/images/image/" + nameParse;
+  // let ur = "https://cayambe-tourism.onrender.com/images/image/" + nameParse;
 
   useEffect(() => {
     setCurrentItem(dato);
